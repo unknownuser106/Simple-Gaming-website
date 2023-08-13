@@ -1,0 +1,63 @@
+html {
+    font-family: "Open Sans", Helvetica, arial, sans-serif;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+  
+  a {
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+  }
+  
+  
+  [class^=btn-] {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    height: 50px;
+    max-width: 200px;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    border: 2px solid currentColor;
+  }
+  
+  
+  .btn-10 {
+    color: #b9853b;
+  }
+  .btn-10:before, .btn-10:after,
+  .btn-10 span:before,
+  .btn-10 span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 80px;
+    background-color: rgba(247, 239, 227, 0.25);
+    transition: 0.4s;
+  }
+  .btn-10:after,
+  .btn-10 span:before {
+    left: auto;
+    right: 0;
+  }
+  .btn-10 span:before,
+  .btn-10 span:after {
+    transition-delay: 0.4s;
+  }
+  .btn-10:hover {
+    color: #eddec5;
+  }
+  .btn-10:hover:before, .btn-10:hover:after,
+  .btn-10:hover span:before,
+  .btn-10:hover span:after {
+    width: 250px;
+  }
+  .btn-10:active {
+    background-color: #b68136;
+  }
+  
+  
